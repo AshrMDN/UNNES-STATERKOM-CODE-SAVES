@@ -1,6 +1,6 @@
-# 🚀 UNNES Staterkom: My C++ Evolution Arc
+# 🚀 UNNES Staterkom: All My Programming Langguage Evolution Arc
 
-### M AISAR R Projects
+## AISAR Projects
 
 Hey there, fellow Programmers! 🎮 Welcome to the secret laboratory where I turn coffee, sleepless nights, and pure willpower into functional C++ code. 
 
@@ -50,9 +50,9 @@ Then run it like a pro:
 ## 🔗 Connect With Me (Behind The Scenes)
 When I am not fighting with C++ compiler errors, you can find me building things or hosting stuff here:
 
-* 👔 **LinkedIn:** [M Aisar R](https://linkedin.com) *(For corporate adults)*
-* 🌐 **Portfolio:** [ashrrrmdn.pages.dev](https://ashrrrmdn.pages.dev/) *(See what else I've broken)*
-* 🕹️ **Itch.io:** [ashrrrmdn.itch.io](https://ashrrrmdn.itch.io/) *(Where my indie game experiments live)*
+* 👔 **LinkedIn:** [Open](www.linkedin.com/in/ashrmdn) *(For corporate adults)*
+* 🌐 **Portfolio:** [Open](https://ashrrrmdn.pages.dev/) *(See what else I've broken)*
+* 🕹️ **Itch.io:** [Open](https://ashrrrmdn.itch.io/) *(Where my indie game experiments live)*
 
 ---
 
