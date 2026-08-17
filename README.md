@@ -50,7 +50,7 @@ Then run it like a pro:
 ## 🔗 Connect With Me (Behind The Scenes)
 When I am not fighting with C++ compiler errors, you can find me building things or hosting stuff here:
 
-* 👔 **LinkedIn:** [Open](www.linkedin.com/in/ashrmdn) *(For corporate adults)*
+* 👔 **LinkedIn:** [Open](https://www.linkedin.com/in/ashrmdn) *(For corporate adults)*
 * 🌐 **Portfolio:** [Open](https://ashrrrmdn.pages.dev/) *(See what else I've broken)*
 * 🕹️ **Itch.io:** [Open](https://ashrrrmdn.itch.io/) *(Where my indie game experiments live)*
 
