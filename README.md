@@ -57,11 +57,9 @@ Then run it like a pro:
 ## 🔗 Connect With Me 
 When I am not fighting with compiler errors, you can find me building things or hosting stuff here:
 
-```diff
 + 👔 LinkedIn: [Open](https://www.linkedin.com/in/ashrmdn) (For corporate adults)
 + 🌐 Portfolio: [Open](https://ashrrrmdn.pages.dev/) (See what else I've broken)
 + 🕹️ Itch.io: [Open](https://ashrrrmdn.itch.io/) (Where my indie game experiments live)
-```
 
 ---
 
