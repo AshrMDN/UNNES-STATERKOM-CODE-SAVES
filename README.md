@@ -1,18 +1,18 @@
 # 🚀 UNNES Staterkom: My C++ Evolution Arc
 
-Hey there, fellow Discord adventurers! 🎮 Welcome to the secret laboratory where I turn coffee, sleepless nights, and pure willpower into functional C++ code. 
+Hey there, fellow Programmers! 🎮 Welcome to the secret laboratory where I turn coffee, sleepless nights, and pure willpower into functional C++ code. 
 
-This repository tracks my coding journey for the **Staterkom** (Starter Komputer) course at Universitas Negeri Semarang (UNNES). If you're from my Discord server, congrats! You found the source code behind my chaotic testing.
+This repository tracks my coding journey for the **Staterkom** (Applied Statistic and Computation) course at Universitas Negeri Semarang (UNNES). If you're from my socials server, congrats! You found the source code behind my chaotic testing.
 
 ---
 
-## 🔥 Current Milestone: The "Kasian Dit" Incident
+## 🔥 Current Milestone: The First C++ Code "Demo"
 Yes, the compiler bullied me at first because C++ reads code from top to bottom (who knew, right?). But after a quick training arc, it finally works! 
 
 Here is the legendary snippet that brought this repo to life:
 ```cpp
 string printerKata(string name) {
-    return "yahaha kasian " + name; 
+    return "Hi" + name; 
 }
 ```
 
@@ -40,8 +40,5 @@ Then run it like a pro:
 ```
 
 ---
-
-## 🤖 Discord Crew Credits
-Shoutout to the bugs that kept me company, the `int main()` function for being the only reason my code actually starts, and the Discord homies who didn't believe my code would compile. **IT WORKS NOW, Y'ALL!** 😎
 
 *Feel free to leave a ⭐ star on this repository if you want to support my journey to not failing this semester!*
