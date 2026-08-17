@@ -1,6 +1,7 @@
 # 🚀 UNNES Staterkom: My C++ Evolution Arc
 
-###**M AISAR R**
+### M AISAR R Projects
+
 Hey there, fellow Programmers! 🎮 Welcome to the secret laboratory where I turn coffee, sleepless nights, and pure willpower into functional C++ code. 
 
 This repository tracks my coding journey for the **Staterkom** (Applied Statistic and Computation) course at Universitas Negeri Semarang (UNNES). If you're from my socials server, congrats! You found the source code behind my chaotic testing.
@@ -8,7 +9,11 @@ This repository tracks my coding journey for the **Staterkom** (Applied Statisti
 ---
 
 ## 🔥 Current Milestone: The First C++ Code "Demo"
-Yes, the compiler bullied me at first because C++ reads code from top to bottom (who knew, right?). But after a quick training arc, it finally works! 
+
+```diff
+- Error: Compiler bullied me because C++ reads code from top to bottom! (Who knew, right?)
++ Success: Quick training arc complete, the code finally works flawlessly!
+```
 
 Here is the legendary snippet that brought this repo to life:
 ```cpp
@@ -39,6 +44,15 @@ Then run it like a pro:
 ```powershell
 & ".\firstDemo.exe"
 ```
+
+---
+
+## 🔗 Connect With Me (Behind The Scenes)
+When I am not fighting with C++ compiler errors, you can find me building things or hosting stuff here:
+
+* 👔 **LinkedIn:** [M Aisar R](https://linkedin.com) *(For corporate adults)*
+* 🌐 **Portfolio:** [ashrrrmdn.pages.dev](https://ashrrrmdn.pages.dev/) *(See what else I've broken)*
+* 🕹️ **Itch.io:** [ashrrrmdn.itch.io](https://ashrrrmdn.itch.io/) *(Where my indie game experiments live)*
 
 ---
 
