@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hasil Perkalian"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-01 08.16.07 AM"/>
+        <attribute name="created" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA4LjA1LjE1IEFNOzE5MzA="/>
+        <attribute name="edited" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA4LjE2LjA3IEFNOzE7MjA0MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, Perkalian" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input Nilai a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Input Nilai b&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="Perkalian" expression="a*b"/>
+            <output expression="&quot;Hasil Perkalian :&quot;" newline="True"/>
+            <output expression="Perkalian" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

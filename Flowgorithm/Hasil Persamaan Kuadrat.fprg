@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hasil Persamaan Kuadrat"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-01 09.55.46 AM"/>
+        <attribute name="created" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA5LjQ1LjQzIEFNOzE5MzY="/>
+        <attribute name="edited" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA5LjU1LjQ2IEFNOzE7MjA0OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, D, x1, x2" type="Real" array="False" size=""/>
+            <output expression="&quot;Input Nilai a (Koefisien dari x^2)&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Input Nilai b (Koefisien dari x)&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Input Nilai c (Konstanta)&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="D" expression="b^2 - (4 * a *c)"/>
+            <assign variable="x1" expression="(-b + sqrt(D)) / (2 * a)"/>
+            <assign variable="x2" expression="(-b - sqrt(D)) / (2 * a)"/>
+            <output expression="&quot;Hasil x1 (Akar Pertama):&quot;" newline="True"/>
+            <output expression="x1" newline="True"/>
+            <output expression="&quot;Hasil x2 (Akar Kedua):&quot;" newline="True"/>
+            <output expression="x2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

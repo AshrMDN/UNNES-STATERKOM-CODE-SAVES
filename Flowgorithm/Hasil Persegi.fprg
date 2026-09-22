@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hasil Persegi"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-01 08.00.41 AM"/>
+        <attribute name="created" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA3LjQxLjE3IEFNOzE5MzE="/>
+        <attribute name="edited" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA4LjAwLjQxIEFNOzE7MjAzMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Sisi, Luas" type="Real" array="False" size=""/>
+            <output expression="&quot;Input Nilai Sisi&quot;" newline="True"/>
+            <input variable="Sisi"/>
+            <assign variable="Luas" expression="Sisi*Sisi"/>
+            <output expression="&quot;Hasil : &quot;" newline="True"/>
+            <output expression="Luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

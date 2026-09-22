@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hasil Volume Kerucut"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-01 09.18.39 AM"/>
+        <attribute name="created" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA4LjU4LjE5IEFNOzE5NDI="/>
+        <attribute name="edited" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA5LjE4LjM5IEFNOzE7MjA0OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, t, s, LP, V" type="Real" array="False" size=""/>
+            <output expression="&quot;Input Nilai Jari-Jari Alas Kerucut&quot;" newline="True"/>
+            <input variable="r"/>
+            <output expression="&quot;Input Nilai Tinggi Kerucut&quot;" newline="True"/>
+            <input variable="t"/>
+            <assign variable="s" expression="sqrt(r^2+t^2)"/>
+            <assign variable="LP" expression="pi*r*(r+s)"/>
+            <assign variable="V" expression="(1/3)*pi*r^2*t"/>
+            <output expression="&quot;Hasil Luas Permukaan Kerucut&quot;" newline="True"/>
+            <output expression="LP" newline="True"/>
+            <output expression="&quot;Hasil Volume Kerucut : &quot;" newline="True"/>
+            <output expression="V" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

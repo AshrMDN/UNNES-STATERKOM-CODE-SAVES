@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hasil Volume Bola"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-01 09.45.41 AM"/>
+        <attribute name="created" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA5LjIzLjM4IEFNOzE5MzY="/>
+        <attribute name="edited" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA5LjQ1LjQxIEFNOzE7MjA0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, LP, V" type="Real" array="False" size=""/>
+            <output expression="&quot;Input Nilai Jari-Jari Bola&quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="LP" expression="4 * pi * r^2"/>
+            <assign variable="V" expression="4/3 * pi * r^3"/>
+            <output expression="&quot;Hasil Luas Permukaan Bola :&quot;" newline="True"/>
+            <output expression="LP" newline="True"/>
+            <output expression="&quot;Hasil Volume Bola :&quot;" newline="True"/>
+            <output expression="V" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

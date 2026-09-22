@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hasil Volume Balok"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-01 09.23.32 AM"/>
+        <attribute name="created" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA4LjQ0LjQ1IEFNOzE5MzY="/>
+        <attribute name="edited" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA5LjIzLjMyIEFNOzI7MjAzOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, l, t, LP, V" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input Nilai Panjang&quot;" newline="True"/>
+            <input variable="p"/>
+            <output expression="&quot;Input Nilai Lebar&quot;" newline="True"/>
+            <input variable="l"/>
+            <output expression="&quot;Input Nilai Tinggi&quot;" newline="True"/>
+            <input variable="t"/>
+            <assign variable="LP" expression="2*(p*l+p*t+l*t)"/>
+            <assign variable="V" expression="p*l*t"/>
+            <output expression="&quot;Luas Permukaan Hasil :&quot;" newline="True"/>
+            <output expression="LP" newline="True"/>
+            <output expression="&quot;Volume Hasil :&quot;" newline="True"/>
+            <output expression="V" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

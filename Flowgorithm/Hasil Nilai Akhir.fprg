@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hasil Nilai Akhir"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-01 08.43.15 AM"/>
+        <attribute name="created" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA4LjM2LjM3IEFNOzE5Mzg="/>
+        <attribute name="edited" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA4LjQzLjE1IEFNOzE7MjA0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="UH, UTS, UAS, NA" type="Real" array="False" size=""/>
+            <output expression="&quot;Input Ulangan Harian&quot;" newline="True"/>
+            <input variable="UH"/>
+            <output expression="&quot;Input Ulangan Tengah Semester&quot;" newline="True"/>
+            <input variable="UTS"/>
+            <output expression="&quot;Input Ulangan Akhir Semester&quot;" newline="True"/>
+            <input variable="UAS"/>
+            <assign variable="NA" expression="UH*0.3 + UTS*0.4 + UAS*0.4"/>
+            <output expression="&quot;Hasil Nilai Akhir :&quot;" newline="True"/>
+            <output expression="NA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

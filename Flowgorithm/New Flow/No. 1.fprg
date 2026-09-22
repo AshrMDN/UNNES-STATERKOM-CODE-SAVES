@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="No. 1"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-15 09.13.16 AM"/>
+        <attribute name="created" value="QVNVUztNRE5QQzsyMDI2LTA5LTE1OzA4LjM4LjE3IEFNOzE5NDM="/>
+        <attribute name="edited" value="QVNVUztNRE5QQzsyMDI2LTA5LTE1OzA5LjEzLjE2IEFNOzE7MjA0NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nama" type="String" array="False" size=""/>
+            <declare name="NIM" type="Integer" array="False" size=""/>
+            <declare name="UH, UTS, UAS, NA" type="Real" array="False" size=""/>
+            <output expression="&quot;Tuliskan Nama&quot;" newline="True"/>
+            <input variable="Nama"/>
+            <output expression="&quot;Tuliskan NIM&quot;" newline="True"/>
+            <input variable="NIM"/>
+            <output expression="&quot;Tuliskan Nilai Ulangan Harian&quot;" newline="True"/>
+            <input variable="UH"/>
+            <output expression="&quot;Tuliskan Nilai Ulangan Tengah Semester&quot;" newline="True"/>
+            <input variable="UTS"/>
+            <output expression="&quot;Tuliskan Ulangan Akhir Semester&quot;" newline="True"/>
+            <input variable="UAS"/>
+            <assign variable="NA" expression="(UH + UTS + UAS) /3"/>
+            <output expression="Nama" newline="True"/>
+            <output expression="NIM" newline="True"/>
+            <output expression="UH" newline="True"/>
+            <output expression="UTS" newline="True"/>
+            <output expression="UAS" newline="True"/>
+            <if expression="NA &gt;= 71">
+                <then>
+                    <output expression="&quot;Lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Tidak Lulus&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

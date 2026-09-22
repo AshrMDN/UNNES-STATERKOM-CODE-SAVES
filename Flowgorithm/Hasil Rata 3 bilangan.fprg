@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hasil Rata 3 bilangan"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-01 08.30.47 AM"/>
+        <attribute name="created" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA4LjIxLjUzIEFNOzE5MzA="/>
+        <attribute name="edited" value="QVNVUztNRE5QQzsyMDI2LTA5LTAxOzA4LjMwLjQ3IEFNOzE7MjA0MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, Rata" type="Real" array="False" size=""/>
+            <output expression="&quot;Input Nilai a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Input Nilai b&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Input Nilai c&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="Rata" expression="(a+b+c)/3"/>
+            <output expression="&quot;Hasil Rata - rata : &quot;" newline="True"/>
+            <output expression="Rata" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
